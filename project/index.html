@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Quote Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/master.css" />
+    <!--I went for a sort of 2010's "minimalist" aesthetic-->
+  </head>
+  <body>
+    <header>
+      <h1>Inspirational Quotes Generator</h1>
+    </header>
+
+    <main>
+      <section id="quote-box">
+        <p id="quote-text"></p>
+        <p id="quote-author"></p>
+      </section>
+
+      <section id="button-section">
+        <button id="generate-quote">Get Quote</button>
+      </section>
+
+      <section id="button-section">
+        <button id="show-all">Show All Quotes</button>
+        <button id="hide-all">Hide Quotes</button>
+      </section>
+      <section id="all-quotes" class="hidden"></section>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
